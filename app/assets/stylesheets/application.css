@@ -113,18 +113,18 @@ body {
 	font-family: 'Signika', sans-serif;
 	font-size: 1.5em;
 	text-align: center;
-	width: 49%;
+	width: 49.5%;
 	/*border-radius: .3em;*/
 	border: 2px, rgba(192, 57, 43, 1);
 	position: absolute;
-	right: 33%;
-	top: 2.35em;
+	right: 40%;
+	top: 3em;
 }
 
 .button {
 	position: absolute;
-	right: 22%;
-	top: 3.3em;
+	right: 29%;
+	top: 4.3em;
 	font-family: 'Signika', sans-serif;
 	font-size: 1.1em;
 	height: 1.8em;
@@ -142,8 +142,8 @@ body {
 	position: absolute;
 	width: 61%;
 	height: 10em;
-	top: 6.2em;
-	left: 17.5%;
+	top: 8em;
+	left: 10%;
 	background-color: rgba(189,189,189,.8);
 	z-index: -1;
 	/*border-radius: .5em;*/
@@ -157,14 +157,15 @@ body {
 	/*line-height: 1.5;*/
 	font-size: 2em;
 	left: 1%;
+	top: -10%;
 }
 
 .concertsbox {
 	position: absolute;
 	width: 61%;
 	height: 15em;
-	top: 16.6em;
-	left: 17.5%;
+	top: 19em;
+	left: 10%;
 	background-color: rgba(189,189,189,.8);
 	z-index: -1;
 	/*border-radius: .5em;*/
@@ -177,12 +178,12 @@ body {
 }
 
 #map-canvas {
-		top: 16.6em;
+		top: 19em;
 		position: absolute;
         height: 15em;
         width: 15em;
         float: right;
-        right: 21.5%;
+        right: 29%;
         /*margin-top: 340px;*/
         /*padding: 20px;*/
 
@@ -201,8 +202,8 @@ body {
 	position: absolute;
 	width: 61%;
 	height: 10em;
-	top: 27.1em;
-	left: 17.5%;
+	top: 8em;
+	left: 10%;
 	background-color: rgba(189,189,189,.8);
 	z-index: -1;
 	/*border-radius: .5em;*/
@@ -255,11 +256,12 @@ body {
 	position: absolute;
 	width: 61%;
 	height: 11em;
-	top: 47.1em;
-	left: 17.5%;
+	top: 35em;
+	left: 10%;
 	background-color: rgba(189,189,189,.8);
 	z-index: -1;
 	/*border-radius: .5em;*/
-	overflow: scroll;
+	overflow-x: scroll;
+	overflow-y: hidden;
 	/*text-overflow: ellipsis;*/
 }
